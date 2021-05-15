@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Homeworks>
+<Entities>
     <homework ID="1">
         <Description>File</Description>
         <Deadline>7</Deadline>
@@ -15,4 +15,4 @@
         <Deadline>9</Deadline>
         <Startline>7</Startline>
     </homework>
-</Homeworks>
+</Entities>

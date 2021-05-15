@@ -37,16 +37,7 @@
       <recent name="F:\Egyetem\6.Felev\VerVal\fuck this\LabAssignmentProject\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ServiceStudentTests.addAndDeleteStudent">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="LabAssignmentTracking" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ServiceHomeworkTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -54,6 +45,53 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceHomeworkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LabAssignmentTracking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.ServiceHomeworkTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceHomeworkTest.addAndRemoveHomework" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LabAssignmentTracking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.ServiceHomeworkTest" />
+      <option name="METHOD_NAME" value="addAndRemoveHomework" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceHomeworkTest.addHomework1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LabAssignmentTracking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.ServiceHomeworkTest" />
+      <option name="METHOD_NAME" value="addHomework1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -69,38 +107,6 @@
       <option name="PACKAGE_NAME" value="service" />
       <option name="MAIN_CLASS_NAME" value="service.ServiceStudentTests" />
       <option name="METHOD_NAME" value="addAndDeleteStudent" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServiceStudentTests.addStudent1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LabAssignmentTracking" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.ServiceStudentTests" />
-      <option name="METHOD_NAME" value="addStudent1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServiceStudentTests.addStudent2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LabAssignmentTracking" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.ServiceStudentTests" />
-      <option name="METHOD_NAME" value="addStudent2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ServiceHomeworkTest" />
+        <item itemvalue="JUnit.ServiceHomeworkTest.addAndRemoveHomework" />
+        <item itemvalue="JUnit.ServiceHomeworkTest.addHomework1" />
         <item itemvalue="JUnit.ServiceStudentTests.addAndDeleteStudent" />
         <item itemvalue="JUnit.ServiceStudentTests.addStudent3" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.ServiceStudentTests.addStudent2" />
-        <item itemvalue="JUnit.ServiceStudentTests.addStudent1" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +150,7 @@
       <option name="presentableId" value="Default" />
       <updated>1550871485222</updated>
       <workItem from="1550871488147" duration="1456000" />
-      <workItem from="1621098753626" duration="2340000" />
+      <workItem from="1621098753626" duration="4545000" />
     </task>
     <servers />
   </component>
