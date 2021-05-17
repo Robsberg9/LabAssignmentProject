@@ -13,6 +13,8 @@ import validation.HomeworkValidator;
 import validation.StudentValidator;
 import validation.Validator;
 
+import java.util.Date;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class ServiceHomeworkTest {
@@ -80,6 +82,39 @@ class ServiceHomeworkTest {
             afterCount++;
         }
         assertEquals(beforeCount, afterCount);
+
+    }
+
+    @Test
+    void updateHomework_Success() {
+        Iterable<Homework> homeworks = service.findAllHomework();
+        Homework old = new Homework("999", "asd", 4,3);
+        for (Homework homework : homeworks) {
+            if(homework.getID().equals("1")) {
+                old = homework;
+            }
+        }
+        String new_description = new Date().toString();
+        service.updateHomework("1",new_description,7,4);
+        String descirption = "";
+        homeworks = service.findAllHomework();
+        for (Homework homework : homeworks) {
+            if(homework.getID().equals("1")) {
+                descirption = homework.getDescription();
+            }
+        }
+
+        assertNotEquals(descirption, old.getDescription());
+    }
+
+    @Test
+    void updateHomework_NotExisting() {
+        Exception exception = assertThrows(IllegalArgumentException.class, () -> {
+            service.updateHomework("1", "Hola", 7,8);
+        });
+        String expectedMessage = "startline cant be bigger than deadline";
+        String actualMessage = exception.getMessage();
+        assertEquals(actualMessage, expectedMessage);
 
     }
 }

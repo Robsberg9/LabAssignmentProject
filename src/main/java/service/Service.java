@@ -95,6 +95,9 @@ public class Service {
     }
 
     public int updateHomework(String id, String descriptionNew, int deadlineNew, int startlineNew) {
+        if (startlineNew > deadlineNew) {
+            throw new IllegalArgumentException("startline cant be bigger than deadline");
+        }
         Homework homeworkNew = new Homework(id, descriptionNew, deadlineNew, startlineNew);
         Homework result = homeworkXmlRepo.update(homeworkNew);
 
